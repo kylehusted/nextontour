@@ -544,29 +544,5 @@ Cleanup
 
 If you do **NOT** intend to complete the :ref:`epoch` lab, delete your application deployment in Calm. Otherwise the same deployment can be used, but be sure to change your security policy back to **Monitor** mode.
 
-Getting Connected
-+++++++++++++++++
-
-Have a question about **Nutanix Flow**? Please reach out to the resources below:
-
-+---------------------------------------------------------------------------------+
-|  Flow Product Contacts                                                          |
-+================================+================================================+
-|  Slack Channel                 |  #flow                                         |
-+--------------------------------+------------------------------------------------+
-|  Product Manager               |  Abhishek Tiwari, abhishek.tiwari1@nutanix.com |
-+--------------------------------+------------------------------------------------+
-|  Product Marketing Manager     |  Mike Wronski, michael.wronski@nutanix.com     |
-+--------------------------------+------------------------------------------------+
-|  Technical Marketing Engineer  |  Jason Burns, jason.burns@nutanix.com          |
-+--------------------------------+------------------------------------------------+
-|  Solutions Architect           |  Robert Kintner, robert.kintner@nutanix.com    |
-+--------------------------------+------------------------------------------------+
-|  Founders Team Manager         |  Dan Angst, dan.angst@nutanix.com              |
-+--------------------------------+------------------------------------------------+
-|  Founders Team                 |  Scott Tye, scott.tye@nutanix.com              |
-+--------------------------------+------------------------------------------------+
-|  Founders Team                 |  Jon Jones, jon.jones@nutanix.com              |
-+--------------------------------+------------------------------------------------+
 
 .. |blueprints| image:: images/blueprints.png

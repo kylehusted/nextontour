@@ -517,24 +517,6 @@ Cleanup
 
 **IF** you **DO** intend on completing either the :ref:`cloud_native_lab` or :ref:`epoch` labs, **THEN** you should leave your *Initials*-**karbon** cluster in place.
 
-Getting Connected
-+++++++++++++++++
-
-Have a question about **Nutanix Karbon**? Please reach out to the resources below:
-
-+-------------------------------------------------------------------------------------+
-|  Karbon Product Contacts                                                            |
-+================================+====================================================+
-|  Slack Channel                 |  #karbon                                           |
-+--------------------------------+----------------------------------------------------+
-|  Product Manager               |  Denis Guyadeen, dguyadeen@nutanix.com             |
-+--------------------------------+----------------------------------------------------+
-|  Product Marketing Manager     |  Maryam Sanglaji, maryam.sanglaji@nutanix.com      |
-+--------------------------------+----------------------------------------------------+
-|  Technical Marketing Engineer  |  Dwayne Lessner, dwayne@nutanix.com                |
-+--------------------------------+----------------------------------------------------+
-|  NEXT Community Forum          |  https://next.nutanix.com/kubernetes-containers-30 |
-+--------------------------------+----------------------------------------------------+
 
 Additional Kubernetes Training Resources
 ++++++++++++++++++++++++++++++++++++++++
