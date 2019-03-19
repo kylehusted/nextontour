@@ -51,8 +51,8 @@ What's New
 Initial Setup
 +++++++++++++
 
+- Connect to the Whats_NEXT wifi using the password **nutanix/4u**
 - Take note of the *Passwords* being used.
-- Log into your virtual desktops (connection info below)
 
 Environment Details
 +++++++++++++++++++
@@ -81,13 +81,13 @@ Each cluster is configured with 2 VLANs which can be used for VMs:
     - VLAN
     - DHCP Scope
   * - Primary
-    - 10.21.\ *XYZ*\ .1/25
+    - 10.1.32.1/19
     - 0
-    - 10.21.\ *XYZ*\ .50-10.21.\ *XYZ*\ .124
+    - 10.1.32.51-10.1.63.254
   * - Secondary
-    - 10.21.\ *XYZ*\ .129/25
-    - *XYZ1*
-    - 10.21.\ *XYZ*\ .132-10.21.\ *XYZ*\ .253
+    - 10.1.64.1/19
+    - 42
+    - 10.1.64.1-10.1.95.254
 
 Credentials
 ...........
@@ -102,10 +102,13 @@ Credentials
    * - Prism Central
      - admin
      - Next2019!
+   * - Prism Element
+     - nutanix
+	 - Next2019!
 
 ALL LAB ATTENDEES ARE USING THE SAME CLUSTER!
-++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++
 BE A GOOD NEIGHBOR AND DON'T RUIN THE ENVIRONMENT FOR EVERYONE ELSE!
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-If anyone breaks the environment, they will be tarred, feathered, and sent to America.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+If anyone breaks the environment, they will be tarred, feathered, and sent to the United States.
 ......................................................................................
