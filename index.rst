@@ -36,9 +36,9 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix Enterprise Bootcamp! This workbook accompanies an instructor-led session that introduces Nutanix solutions and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
+Welcome to the .NEXT Hands On Labs! These labs are intended to give you working hands-on experience with the Nutanix platform and an introduction to a few of Nutanix's other offerings so you can experience the power of software-defined for yourself.
 
-At the end of the bootcamp, attendees should understand the basic concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
+There will not be enough time to complete all labs. You can choose which labs to perform, but starting with Nutanix 101 is HIGHLY reccomended if you do not have prior Nutanix experience.
 
 What's New
 ++++++++++
@@ -47,21 +47,6 @@ What's New
     - AOS & PC 5.10.x
 
 - Optional Lab Updates:
-
-
-Agenda
-++++++
-
-- Introductions
-- Prism Pro
-- Nutanix Calm
-- Nutanix Flow
-
-Introductions
-+++++++++++++
-
-- Name
-- Familiarity with Nutanix
 
 Initial Setup
 +++++++++++++
@@ -72,42 +57,18 @@ Initial Setup
 Environment Details
 +++++++++++++++++++
 
-Nutanix Workshops are intended to be run in the Nutanix Hosted POC environment. Your cluster will be provisioned with all necessary images, networks, and VMs required to complete the exercises.
+These labs are intended to be run in the Nutanix Hosted POC environment, but have been repurposed to run on local hardware. The environment will be provisioned with all necessary images, networks, and VMs required to complete the exercises.
 
 Networking
 ..........
 
 Hosted POC clusters follow a standard naming convention:
 
-- **Cluster Name** - POC\ *XYZ*
-- **Subnet** - 10.**21**.\ *XYZ*\ .0
-- **Cluster IP** - 10.**21**.\ *XYZ*\ .37
+- **Cluster Name** - NEXTLAB
+- **Subnet** - 10.1.0.0
+- **Cluster IP** - 10.1.31.22
+- **Prism Central IP** - 10.1.31.29
 
-If provisioned from the marketing pool:
-- **Cluster Name** - MKT\ *XYZ*
-- **Subnet** - 10.**20**.\ *XYZ*\ .0
-- **Cluster IP** - 10.**20**.\ *XYZ*\ .37
-
-For example:
-
-- **Cluster Name** - POC055
-- **Subnet** - 10.21.55.0
-- **Cluster IP** - 10.21.55.37
-
-Throughout the Workshop there are multiple instances where you will need to substitute *XYZ* with the correct octet for your subnet, for example:
-
-.. list-table::
-   :widths: 25 75
-   :header-rows: 1
-
-   * - IP Address
-     - Description
-   * - 10.21.\ *XYZ*\ .37
-     - Nutanix Cluster Virtual IP
-   * - 10.21.\ *XYZ*\ .39
-     - **PC** VM IP, Prism Central
-   * - 10.21.\ *XYZ*\ .40
-     - **DC** VM IP, NTNXLAB.local Domain Controller
 
 Each cluster is configured with 2 VLANs which can be used for VMs:
 
@@ -131,10 +92,6 @@ Each cluster is configured with 2 VLANs which can be used for VMs:
 Credentials
 ...........
 
-.. note::
-
-  The *<Cluster Password>* is unique to each cluster and will be provided by the leader of the Workshop.
-
 .. list-table::
    :widths: 25 35 40
    :header-rows: 1
@@ -142,74 +99,13 @@ Credentials
    * - Credential
      - Username
      - Password
-   * - Prism Element
-     - admin
-     - *<Cluster Password>*
    * - Prism Central
      - admin
-     - *<Cluster Password>*
-   * - Controller VM
-     - nutanix
-     - *<Cluster Password>*
-   * - Prism Central VM
-     - nutanix
-     - *<Cluster Password>*
+     - Next2019!
 
-Each cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **NTNXLAB.local** domain. The domain is populated with the following Users and Groups:
-
-.. list-table::
-   :widths: 25 35 40
-   :header-rows: 1
-
-   * - Group
-     - Username(s)
-     - Password
-   * - Administrators
-     - Administrator
-     - nutanix/4u
-   * - SSP Admins
-     - adminuser01-adminuser25
-     - nutanix/4u
-   * - SSP Developers
-     - devuser01-devuser25
-     - nutanix/4u
-   * - SSP Power Users
-     - poweruser01-poweruser25
-     - nutanix/4u
-   * - SSP Basic Users
-     - basicuser01-basicuser25
-     - nutanix/4u
-
-Access Instructions
-+++++++++++++++++++
-
-The Nutanix Hosted POC environment can be accessed a number of different ways:
-
-Citrix XenDesktop
-.................
-
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
-
-**Nutanix Employees** - Use your NUTANIXDC credentials
-
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Employee Pulse Secure VPN
-..........................
-
-https://sslvpn.nutanix.com - Use your CORP credentials
-
-Non-Employee Pulse Secure VPN
-..............................
-
-https://lab-vpn.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Under **Client Application Sessions**, click **Start** to the right of **Pulse Secure** to download the client.
-
-Install and open **Pulse Secure**.
-
-Add a connection:
-
-- **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - HPOC VPN
-- **Server URL** - lab-vpn.nutanix.com
+ALL LAB ATTENDEES ARE USING THE SAME CLUSTER!
+++++++++++++++++++++++++++++++++++++++++++++
+BE A GOOD NEIGHBOR AND DON'T RUIN THE ENVIRONMENT FOR EVERYONE ELSE!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+If anyone breaks the environment, they will be tarred, feathered, and sent to America.
+......................................................................................
