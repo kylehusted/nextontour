@@ -94,8 +94,8 @@ Credentials
 ...........
 
 .. list-table::
-   :widths: 25 25 30
-   :header-rows: 1
+  :widths: 25 25 30
+  :header-rows: 1
 
   * - Credential
     - Username
