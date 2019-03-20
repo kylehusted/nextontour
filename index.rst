@@ -94,18 +94,19 @@ Credentials
 ...........
 
 .. list-table::
-   :widths: 25 35 40
+   :widths: 25 25 30
    :header-rows: 1
 
-   * - Credential
-     - Username
-     - Password
-   * - Prism Central
-     - admin
-     - Next2019!
-   * - Prism Element
-     - nutanix
-	 - Next2019!
+  * - Credential
+    - Username
+    - Password
+  * - Prism Central
+    - admin
+    - Next2019!
+  * - Prism Element
+    - nutanix
+	- Next2019!
+ 
 
 
 ALL LAB ATTENDEES ARE USING THE SAME CLUSTER!
