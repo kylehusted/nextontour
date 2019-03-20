@@ -84,7 +84,7 @@ Each cluster is configured with 2 VLANs which can be used for VMs:
   * - Primary
     - 10.1.32.1/19
     - 0
-    - 10.1.32.51-10.1.63.254
+    - 10.1.1.2-10.1.30.253
   * - Secondary
     - 10.1.64.1/19
     - 42
@@ -98,6 +98,8 @@ Credentials
 - **Prism Central Username** - admin
 - **Prism Central Password** - Next2019!
  
+
+
 
 
 ALL LAB ATTENDEES ARE USING THE SAME CLUSTER!
