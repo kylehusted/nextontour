@@ -48,7 +48,6 @@ What's New
 - Workshop updated for the following software versions:
     - AOS & PC 5.10.x
 
-- Optional Lab Updates:
 
 Initial Setup
 +++++++++++++
@@ -107,6 +106,7 @@ Credentials
    * - Prism Element
      - nutanix
 	 - Next2019!
+
 
 ALL LAB ATTENDEES ARE USING THE SAME CLUSTER!
 +++++++++++++++++++++++++++++++++++++++++++++
