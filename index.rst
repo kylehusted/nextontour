@@ -69,7 +69,6 @@ Hosted POC clusters follow a standard naming convention:
 - **Subnet** - 10.1.0.0
 - **Cluster IP** - 10.1.31.22
 - **Prism Central IP** - 10.1.31.35
-- **Active Directory IP** - 10.1.31.50
 
 
 Each cluster is configured with 2 VLANs which can be used for VMs:
@@ -89,15 +88,16 @@ Each cluster is configured with 2 VLANs which can be used for VMs:
   * - Secondary
     - 10.1.64.1/19
     - 42
+    - 10.1.64.1-10.1.95.254
 
 Credentials
 ...........
 
- 
 - **Prism Element Username** - nutanix
 - **Prism Element Password** - Next2019!
 - **Prism Central Username** - admin
 - **Prism Central Password** - Next2019!
+ 
 
 
 ALL LAB ATTENDEES ARE USING THE SAME CLUSTER!
