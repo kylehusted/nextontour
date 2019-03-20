@@ -88,7 +88,24 @@ Each cluster is configured with 2 VLANs which can be used for VMs:
   * - Secondary
     - 10.1.64.1/19
     - 42
-    - 10.1.64.1-10.1.95.254
+
+Test Table
+
+.. list-table::
+  :widths: 25 25 10 40
+  :header-rows: 1
+
+  * - Network Name
+    - Address
+    - VLAN
+    - DHCP Scope
+  * - Primary
+    - 10.1.32.1/19
+    - 0
+    - 10.1.32.51-10.1.63.254
+  * - Secondary
+    - 10.1.64.1/19
+    - 42
 
 Credentials
 ...........
