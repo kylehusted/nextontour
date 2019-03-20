@@ -63,13 +63,13 @@ These labs are intended to be run in the Nutanix Hosted POC environment, but hav
 Networking
 ..........
 
-Hosted POC clusters follow a standard naming convention:
+Information needed throughout labs:
 
 - **Cluster Name** - NEXTLAB
 - **Subnet** - 10.1.0.0
 - **Cluster IP** - 10.1.31.22
 - **Prism Central IP** - 10.1.31.35
-
+- **AD Domain Controller** - 10.1.31.50
 
 Each cluster is configured with 2 VLANs which can be used for VMs:
 
