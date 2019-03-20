@@ -69,7 +69,7 @@ Hosted POC clusters follow a standard naming convention:
 - **Cluster Name** - NEXTLAB
 - **Subnet** - 10.1.0.0
 - **Cluster IP** - 10.1.31.22
-- **Prism Central IP** - 10.1.31.29
+- **Prism Central IP** - 10.1.31.35
 
 
 Each cluster is configured with 2 VLANs which can be used for VMs:
