@@ -67,7 +67,7 @@ Information needed throughout labs:
 
 - **Cluster Name** - NEXTLAB
 - **Subnet** - 10.1.0.0
-- **Cluster IP** - 10.1.31.22
+- **Prism Element/Cluster IP** - 10.1.31.22
 - **Prism Central IP** - 10.1.31.35
 - **AD Domain Controller** - 10.1.31.50
 
