@@ -17,7 +17,6 @@
   :name: _optional_hols
   :hidden:
 
-  karbon/karbon
   apis/apis
 
 .. toctree::
