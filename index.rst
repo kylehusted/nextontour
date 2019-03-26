@@ -80,6 +80,14 @@ Side B
 - **Prism Central IP** - 10.1.31.88
 - **AD Domain Controller** - 10.1.31.50
 
+Side C
+......
+- **Cluster Name** - NEXTLAB3
+- **Subnet** - 10.1.0.0
+- **Prism Element/Cluster IP** - 10.1.31.92
+- **Prism Central IP** - 10.1.31.96
+- **AD Domain Controller** - 10.1.31.50
+
 The clusters are configured with the following networks to be used for VMs:
 
 .. list-table::
@@ -96,8 +104,12 @@ The clusters are configured with the following networks to be used for VMs:
     - 10.1.1.2-10.1.15.253
   * - Side B Primary
     - 10.1.0.1/19
-    - 42
-    - 10.1.16.1-10.1.30.253
+    - 0
+    - 10.1.16.1-10.1.23.253
+  * - Side C Primary
+    - 10.1.0.1/19
+    - 0
+    - 10.1.24.1-10.1.30.253
 
 Credentials
 ...........
