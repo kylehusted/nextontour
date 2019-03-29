@@ -23,9 +23,14 @@ Lab Setup
 
 This lab depends on the availability of a multi-tier **Task Manger** web application.
 
-Refer to the :ref:`taskman` lab for instructions on importing and launching the completed **Task Manager** blueprint.
+Clone the following VMs replacing **CAM** with your own initials:
 
-Once you have initiated the **Task Manager** deployment, you can proceed with the lab below. **You do not need to wait for the blueprint deployment to complete to begin this lab.**
+CAM-HAProxy-xxxxxxxxx
+CAM-MYSQL-xxxxxxx
+CAM-WebServer-xxxxxxx
+CAM-WebServer-xxxxxxxx
+CAM-WinClient-xxxxxxxx
+
 
 Enabling Flow
 +++++++++++++
