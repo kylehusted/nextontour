@@ -26,10 +26,15 @@ This lab depends on the availability of a multi-tier **Task Manger** web applica
 Clone the following VMs replacing **CAM** with your own initials:
 
 CAM-HAProxy-xxxxxxxxx
+
 CAM-MYSQL-xxxxxxx
+
 CAM-WebServer-xxxxxxx
+
 CAM-WebServer-xxxxxxxx
+
 CAM-WinClient-xxxxxxxx
+
 
 
 Enabling Flow
