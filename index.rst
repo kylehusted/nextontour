@@ -51,7 +51,7 @@ What's New
 Initial Setup
 +++++++++++++
 
-- Connect to the Whats_NEXT wifi using the password **nutanix/4u**
+- Connect to the Whats_NEXT_2019 wifi using the password **nutanix/4u**
 - Take note of the *Passwords* being used.
 
 Environment Details
